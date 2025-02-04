@@ -2,7 +2,7 @@ let attack_pattern = EntityAttackPattern::new(vec!["test_attack".to_string()], v
 world.add_entity_archetype(
     String::from("Test"),
     vec![
-        EntityTags::MovementSpeed(2.0),
+        EntityTags::MovementSpeed(5.0),
         EntityTags::Range(47),
         EntityTags::AggroRange(1000),
         EntityTags::Aggressive,
